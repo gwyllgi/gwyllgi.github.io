@@ -34,7 +34,7 @@ exclude:
   - README.md
   - .gitignore
 
-permalink:        title.html
+permalink:        /:title.html
 
 defaults:
   - scope:
