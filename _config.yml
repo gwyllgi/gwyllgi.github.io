@@ -1,0 +1,60 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            Blog
+tagline:          'Rizal Danu'
+description:      ''
+url:              https://gwyllgi.github.io/blog
+baseurl:          /blog
+                  # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+
+author:
+  name:           'Rizal Danu'
+  url:            https://twitter.com/MrRaptorID
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - README.md
+  - .gitignore
+
+permalink:        /:year/:month/:day/:title.html
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      excerpt_separator:  <!--more-->
+      layout: post
+
+# Custom vars
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+                                
+github:
+  repo:             https://github.com/gwyllgi
+
+disqus:
+  shortname:      rizaldanu
+
+google_analytics: UA-100461102-1
