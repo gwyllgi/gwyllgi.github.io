@@ -3,4 +3,4 @@ layout: category
 title: MongoDB
 ---
 
-Berikut merupakan list artikel mengenai MongoDB.
+Berikut merupakan daftar artikel mengenai MongoDB.
