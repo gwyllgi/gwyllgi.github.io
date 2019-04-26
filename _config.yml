@@ -3,8 +3,8 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            'Rizal Danu • Blog' 
-tagline:          ''
+title:            'Rizal Danu' 
+tagline:          'Blog'
 description:      ''
 url:              https://rizaldanu.web.id
 baseurl:          
